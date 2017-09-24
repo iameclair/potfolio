@@ -12,6 +12,7 @@ import {PortfolioService} from "./services/portfolio.service";
 import {BlogService} from "./services/blog.service";
 import {ContactService} from "./services/contact.service";
 import {AboutService} from "./services/about.service";
+import { NavComponent } from './components/nav/nav.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {AboutService} from "./services/about.service";
     PortfolioComponent,
     AboutComponent,
     ContactComponent,
-    BlogComponent
+    BlogComponent,
+    NavComponent
   ],
   imports: [
     AppRoutingModule,

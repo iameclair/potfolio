@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.demo-layout-waterfall
+.mdl-layout__header-row
+.mdl-navigation__link:last-of-type  {
+  padding-right: 0;
+}
+main{
+  padding-top: 70px;
+}
