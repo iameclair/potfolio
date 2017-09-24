@@ -13,6 +13,7 @@ import {BlogService} from "./services/blog.service";
 import {ContactService} from "./services/contact.service";
 import {AboutService} from "./services/about.service";
 import { NavComponent } from './components/nav/nav.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { NavComponent } from './components/nav/nav.component';
     AboutComponent,
     ContactComponent,
     BlogComponent,
-    NavComponent
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     AppRoutingModule,
